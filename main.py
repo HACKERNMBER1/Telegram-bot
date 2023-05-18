@@ -23,7 +23,7 @@ def boten(message):
     
     E = types.InlineKeyboardButton(text ="USER (BFFF2)", callback_data="F2")
     
-    M = types.InlineKeyboardButton('المطور', url='https://t.me/lis_5_t')
+    M = types.InlineKeyboardButton('المطور', url='https://t.me/VIP3GL')
     
     mas.add(A,E,M)
     
@@ -36,7 +36,7 @@ def masg(call):
 	
 	global nam
 	
-	if call.data =="SidraTools":
+	if call.data "Button1":
 		
 		mas = types.InlineKeyboardMarkup(row_width=2)
 		
@@ -44,9 +44,9 @@ def masg(call):
 
 		E = types.InlineKeyboardButton(text ="USER (BFFF2)", callback_data="F2")
 		
-		M = types.InlineKeyboardButton('المطور', url='https://t.me/lis_5_t')
+		M = types.InlineKeyboardButton('المطور', url='https://t.me/VIP3GL')
 		
-		M = types.InlineKeyboardButton('المطور', url='https://t.me/lis_5_t')
+		M = types.InlineKeyboardButton('المطور', url='https://t.me/VIP3GL')
 		
 		bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id, text="- أهلاً بكً عزيزي المستخدم \n\n- بوت تشكير يوزرات تلجرام 🧑‍💻\n\n♻️ لوحة التحكم الخاصه بك ♨️",reply_markup=mas)
 
@@ -83,7 +83,7 @@ def masg(call):
 				E = types.InlineKeyboardButton(f'EROR : {cp}', callback_data="1x")
 				B = types.InlineKeyboardButton(f'{username}', callback_data="1x")
 				R = types.InlineKeyboardButton(f'{sk}', callback_data="1x")
-				M = types.InlineKeyboardButton('المطور', url='https://t.me/lis_5_t')
+				M = types.InlineKeyboardButton('المطور', url='https://t.me/VIP3GL')
 				mas.add(A,E,B,R,M)
 				bot.edit_message_text(chat_id=call.message.chat.id,message_id=call.message.message_id,text="ok start",reply_markup=mas)
 				
@@ -115,7 +115,7 @@ def masg(call):
 			if response.text.find('If you have <strong>Telegram</strong>, you can contact <a class="tgme_username_link"')>=0:
 				ok+=1
 				sk+=1
-				bot.send_message(call.message.chat.id,f"‹ ᴜѕᴇʀɴᴀᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ  ✓\n────── • ✧✧ • ──────\n‹ ᴜѕᴇʀɴᴀᴍᴇ : @{username}\n────── • ✧✧ • ──────\n• @lis_5_t")
+				bot.send_message(call.message.chat.id,f"‹ ᴜѕᴇʀɴᴀᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ  ✓\n────── • ✧✧ • ──────\n‹ ᴜѕᴇʀɴᴀᴍᴇ : @{username}\n────── • ✧✧ • ──────\n• @VIP3GL")
 				
 			else:
 				cp+=1
